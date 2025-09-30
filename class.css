@@ -1,0 +1,42 @@
+       table {
+            margin: 0 auto
+        }
+
+        table,td,th {
+            border: 1px solid black;
+            text-align: center;
+            padding: 0 5px;
+            border-collapse: collapse;
+        }
+
+        table tr:nth-child(even) {
+            background-color: lightgreen;
+        }
+        table tr:nth-child(odd) {
+            background-color: lightcoral;
+        }
+
+        table tr:hover {
+            background-color: #2554ad;
+            transition: 0.5s
+        }
+
+        h1 {
+            text-align: center;
+            font-size: 1.5em;
+            margin-top: 30px;
+            font-weight: normal;
+            font-family: 'Lobster', cursive;
+        }
+
+        #passed {
+            background-color: lightgray
+        }
+
+        .courses {
+            border: none;
+        }
+
+        aside {
+            border-left: 1px solid green
+        }
